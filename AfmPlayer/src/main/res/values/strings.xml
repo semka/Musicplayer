@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" title="app_name">JCPlayer</string>
+    <string name="text_test" >fadsfasdfadsf</string>
+    <string name="play_initial_time">00:00</string>
+    <string name="track_number">Track</string>
+    <string name="dd">tp:/</string>
+    <string name="dds">tps:/</string>
+    <string name="arites">p3</string>
+</resources>

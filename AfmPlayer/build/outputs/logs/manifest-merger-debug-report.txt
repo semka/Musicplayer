@@ -1,0 +1,63 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:4:5-47
+		INJECTED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:2:1-22:12
+		INJECTED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:6:22-64
+application
+ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:8:5-20:19
+	android:supportsRtl
+		ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:10:9-41
+	android:allowBackup
+		ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:9:9-35
+	tools:replace
+		ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:12:9-38
+service#com.library.nanostudio.afmplayer.AfmPlayerService
+ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:13:9-14:48
+	android:name
+		ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:14:13-45
+service#com.library.nanostudio.afmplayer.AfmKillNotificationsService
+ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:15:9-72
+	android:name
+		ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:15:18-61
+receiver#com.library.nanostudio.afmplayer.AfmPlayerNotificationReceiver
+ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:16:9-19:40
+	android:enabled
+		ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:18:13-35
+	android:exported
+		ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml:17:13-58
+uses-sdk
+INJECTED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kinoyabax\Downloads\MusicPlayer\AfmPlayer\src\main\AndroidManifest.xml

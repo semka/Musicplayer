@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <dimen name="icon_height">80dp</dimen>
+    <dimen name="icon_with">65dp</dimen>
+    <dimen name="player_height">120dp</dimen>
+    <dimen name="text_size">10sp</dimen>
+    <dimen name="touch_default">45dp</dimen>
+    <string name="app_name" title="app_name">JCPlayer</string>
+    <string name="arites">p3</string>
+    <string name="dd">tp:/</string>
+    <string name="dds">tps:/</string>
+    <string name="play_initial_time">00:00</string>
+    <string name="text_test">fadsfasdfadsf</string>
+    <string name="track_number">Track</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="MySeekBarTheme" parent="Widget.AppCompat.SeekBar">
+        <item name="colorAccent">#ffffff</item>
+    </style>
+</resources>

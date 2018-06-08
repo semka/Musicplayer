@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="105dp"
+    android:background="#151515"
+    tools:context="com.library.nanostudio.afmplayer.AfmPlayerView">
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:adjustViewBounds="true"
+      android:scaleType="fitXY" />
+
+  <TextView
+      android:id="@+id/txt_current_music"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="3.5dp"
+      android:ellipsize="marquee"
+      android:focusable="true"
+      android:focusableInTouchMode="true"
+      android:gravity="center"
+      android:marqueeRepeatLimit="marquee_forever"
+      android:maxLines="2"
+      android:scrollHorizontally="true"
+      android:textAlignment="center"
+      android:textColor="@android:color/background_light"
+      android:textSize="13sp" />
+
+  <LinearLayout
+      android:id="@+id/linearLayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="28dp"
+      android:orientation="horizontal"
+      android:paddingEnd="16dp"
+      android:paddingStart="16dp">
+
+    <TextView
+        android:id="@+id/txt_current_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="2dp"
+        android:gravity="center_vertical"
+        android:text="00:00"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/text_size" />
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="1"
+        android:theme="@style/MySeekBarTheme" />
+
+    <TextView
+        android:id="@+id/txt_total_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="2dp"
+        android:gravity="center_vertical"
+        android:text="00:00"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/text_size" />
+  </LinearLayout>
+
+  <ImageButton
+      android:id="@+id/btn_next"
+      android:layout_width="28dp"
+      android:layout_height="28dp"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentRight="true"
+      android:layout_below="@+id/linearLayout"
+      android:layout_marginEnd="70dp"
+      android:layout_marginTop="6dp"
+      android:background="@drawable/ic_next_white" />
+
+  <ImageButton
+      android:id="@+id/btn_play"
+      android:layout_width="38dp"
+      android:layout_height="38dp"
+      android:layout_below="@+id/linearLayout"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="1dp"
+      android:background="@drawable/ic_play_white" />
+
+  <ProgressBar
+      android:id="@+id/progress_bar_player"
+      style="?android:attr/progressBarStyleSmall"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_alignParentBottom="false"
+      android:layout_below="@+id/linearLayout"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="4dp"
+      android:visibility="gone" />
+
+  <ImageButton
+      android:id="@+id/btn_prev"
+      android:layout_width="28dp"
+      android:layout_height="28dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true"
+      android:layout_below="@+id/linearLayout"
+      android:layout_marginStart="70dp"
+      android:layout_marginTop="6dp"
+      android:background="@drawable/ic_previous_white" />
+
+</RelativeLayout>
