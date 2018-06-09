@@ -176,6 +176,7 @@ public class AfmPlayerService extends Service implements
                                     Elements elemente = documente.select(".Orta_Indir_Buton a");
                                     String uu="ht" +getResources().getString(R.string.dd) + "/m"+ getResources().getString(R.string.arites) +"indirco.biz" + elemente.attr("href");
                                     playy(afmAudio,uu);
+
                                 }
                             }, new Response.ErrorListener() {
                         @Override
@@ -187,34 +188,42 @@ public class AfmPlayerService extends Service implements
 
                 }
                 else  if(afmAudio.getPath().toLowerCase().contains("be.co")){
+if(afmAudio.getPath().length()>80){
+    playy(afmAudio,afmAudio.getPath());
+   // Toast.makeText(getApplicationContext(),String.valueOf(afmAudio.getPath().length()),Toast.LENGTH_LONG).show();
+}
 
 
-                    new PlaylistPlayer(getApplicationContext()) {
+else{
+   // Toast.makeText(getApplicationContext(),String.valueOf(afmAudio.getPath().length()),Toast.LENGTH_LONG).show();
+    new PlaylistPlayer(getApplicationContext()) {
 
-                        @Override
-                        protected void onExtractionComplete(SparseArray<PlayMusic> ytFiles, PlayAudio videoMeta) {
+        @Override
+        protected void onExtractionComplete(SparseArray<PlayMusic> ytFiles, PlayAudio videoMeta) {
 
-                            if (ytFiles == null) {
-                                 return;
-                            }
-                            // Iterate over itags
-                            Integer l=0;
-                            for (int i = 0, itag; i < ytFiles.size(); i++) {
-                                itag = ytFiles.keyAt(i);
-                                PlayMusic ytFile = ytFiles.get(itag);
+            if (ytFiles == null) {
+                return;
+            }
+            // Iterate over itags
+            Integer l=0;
+            for (int i = 0, itag; i < ytFiles.size(); i++) {
+                itag = ytFiles.keyAt(i);
+                PlayMusic ytFile = ytFiles.get(itag);
 
-                                if (ytFile.getFormat().getHeight() == -1) {
-
-
+                if (ytFile.getFormat().getHeight() == -1) {
 
 
-                                    playy(afmAudio,ytFile.getUrl());
 
-                                }
-                            }
 
-                        }
-                    }.extract(afmAudio.getPath(), false, false);
+                    playy(afmAudio,ytFile.getUrl());
+
+                }
+            }
+
+        }
+    }.extract(afmAudio.getPath(), false, false);
+}
+
                 }
                 else
                 playy(afmAudio, afmAudio.getPath());
